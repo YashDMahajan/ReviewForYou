@@ -1,7 +1,7 @@
 # ReviewForYou
 
 * An website in which user can compare the reviews of the products from e-commerce websites like Amazon and Walmart.
-* See others reviews about the service of Amazon and Walmart.
+* You can See others reviews about the service of Amazon and Walmart.
 * You can add your reviews or thoughts about the Amazon and Walmart to help others.
 
 ## Home Page
