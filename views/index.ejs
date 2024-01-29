@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review For You</title>
+</head>
+<body>
+    <form action="/" method="post">
+        <label for="input">Enter Code For Amazon :</label>
+        <input id="input" type="text" name="code">
+        <button type="submit">check reviews</button>
+    </form>
+    <br>
+    <% reviewes.forEach(function(data){ %>
+        <h1><%=data.name%></h1>
+        <p><%=data.review%></p>      
+   <% }); %>
+    <hr>
+   <form action="/walmart" method="post">
+    <label for="input">Enter Code For Walmart :</label>
+    <input id="input" type="text" name="codeWalmart">
+    <button type="submit">check reviews</button>
+   </form>
+    <% walmartarray.forEach(function(data){ %>
+        <h1><%=data.name%></h1>
+        <p><%=data.review%></p>      
+    <% }); %>
+</body>
+</html>

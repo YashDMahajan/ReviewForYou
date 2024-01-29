@@ -1,0 +1,71 @@
+<%- include("partials/header"); -%>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand ms-5" href=""><i class="fas fa-registered"></i> RFY</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <ul class="navbar-nav ms-auto me-5">
+        <li class="'nav-item">
+           <a class="nav-link" href="/" style="padding: -1.5rem 1rem;">Home</a>  
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="/review">Review</a></li>
+              <li><a class="dropdown-item" href="/add_reviews">Add Reviews</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="/your_reviews">Your Reviews About Websites</a></li>
+            </ul>
+          </li>
+        <li class="'nav-item">
+           <a class="nav-link" href="/login">Login</a>  
+        </li>
+        <li class="'nav-item">
+            <a class="nav-link" href="/signup">Sign Up</a>  
+         </li>
+        <li class="'nav-item">
+           <a class="nav-link" href="#contact">Contact</a>  
+        </li>
+        <li class="'nav-item">
+            <a class="nav-link" href="/profile"><i class="fas fa-user"></i></a>  
+         </li>
+    </ul>
+</div>
+</nav>
+
+<form action="/add_reviews" method="post">
+    <div class="logo-div Exp_div">
+        <div class="card">
+            <div class="card-body">
+    
+              <div class="form-group">
+                <h5 class="card-title">Enter Your Experience With</h5>
+                <input type="text" name="company" class="form-control company_input" id="addTitle" aria-describedby="emailHelp" placeholder="Company name (Amazon or Walmart)" required>
+              </div>
+              <br>
+              <div class="form-group">
+                <h5 class="card-title">Write Experience </h5>
+                <div class="mb-3">
+                    <textarea class="form-control company_textarea" name="experience" id="addTxt" rows="5" required></textarea>
+                  </div>
+              </div>
+              <br>
+              <button class="btn btn-outline-info review-button" type="submit"><i class="fas fa-angle-right"></i> Add Review</button>
+            </div>
+        </div>
+    </div> 
+  </form>
+
+  <div id="contact" class="container-2 contact_add">
+    <a class="footer-link" href="https://www.linkedin.com/in/yash-mahajan-26271321a/" target="_blank">LinkedIn</a>
+    <!-- <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a> -->
+    <p class="yash-p">© Yash Mahajan.</p>
+  </div>
+
+</body>
+</html>
