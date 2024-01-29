@@ -1,0 +1,357 @@
+body
+{
+    margin: 0;
+    background-color: #366ED8;
+    /*font-family: 'Montserrat', sans-serif;*/
+}
+/*
+h1{
+    margin: 0;
+    display: inline-block;
+    color: #366ED8;
+}
+
+h3{
+    display: inline-block;
+    padding-left: 50px;
+    font-size: 1.5rem;  
+}
+
+.h3:hover ul{
+    display: block;
+}
+
+li:hover{
+    color: #366ED8;
+}
+
+h3:hover{
+    color: #366ED8;
+}
+
+div {
+    background-color: #FCFAFA;
+    height: 70px;
+}
+
+.middle-div{
+    text-align: center;
+    margin-top: 210px;
+    background-color: #366ED8;
+    height: 220px;
+}
+.middle-line{
+    margin-bottom: 50px;
+    width: 50%;
+    margin: 0 auto 50px auto;
+    line-height: 1.5;
+    font-size: 3rem;
+    color: white;
+}
+
+.mid-p{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 33px;
+    color: white;
+}
+
+.rounded-div{
+    background-color: #17139C;
+    margin-top: 205px;
+    height: 100px;
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
+    padding-bottom: 69px;
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 23px;
+    padding: 15px 25px 15px 25px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  .bottom-container{
+    padding: 10px 0 45px;
+    margin-top: 622px;
+    border-radius: 50px 50px 0 0;
+    text-align: center;
+    padding-top:47px;
+    font-size: 1.3rem;
+  }
+
+  .yash-p{
+    padding-top: 20px;
+    color: black;
+    font-size: 0.90rem;
+}
+
+.footer-link{
+    color: black;
+}
+
+a{
+    margin: auto 30px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+    color: #366ED8;
+}
+
+.btn1{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
+*/
+
+
+/* Bootstrap component */
+/*
+.a{
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:brown;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#17139C;
+}
+
+.nav-link{
+    padding: -0.5rem 1rem;
+}
+*/
+
+/**************** Navigation Bar *******************/
+.navigation{
+    position: fixed;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    color : black;
+}
+
+.navbar-nav{
+    padding-left: 3rem;
+}
+
+.navbar-light .navbar-brand{
+    font-size: 1.7rem;
+    color: #366ED8;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand:hover{
+    color:#17139C;
+}
+
+/**************** Middle Div *****************/
+
+.middle-div{
+    text-align: center;
+    margin-top: 15%;
+}
+
+.middle-line{
+    color:white;
+    font-size: 3rem;
+    width: 50%;
+    margin : 0 auto 3% auto ;
+    line-height: 1.5;
+    
+}
+
+.btn-outline-info{
+    color : white;
+    border-color: white;
+    font-size: 1.2rem;
+    border-radius: 20px;
+}
+
+/*********** Line - 2 ***********/
+
+/*.container-fluid{
+    text-align: center;
+    margin : 15% auto 15% auto;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    background-color: #17139C; 
+}
+*/
+.mid-p{
+    color : white;
+    font-size: 2.2rem;
+}
+
+.container-1{
+    text-align: center;
+    margin-top : 15%;
+    margin-bottom: 15%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    background-color: #17139C;
+}
+
+.container-fluid{
+    padding: 0;
+}
+/************ Line - 3 ************/
+
+.container-2{
+    text-align: center;
+    margin-top : 16%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: white;
+}
+
+.footer-link{
+    text-decoration: none;
+    margin: 0 15px 0 15px;
+}
+
+.yash-p{
+    margin-top: 25px;
+}
+
+/*************** Carousel Bootstrap ***************/
+.carousel-inner{
+    color: white;
+    text-align: center;
+}
+
+.loren{
+    padding: 5% 20%;
+}
+
+.loren-1{
+    padding:10px;
+}
+
+.fab{
+    padding-right: 20px;
+}
+
+/************** Media Query ***************/
+
+@media (max-width : 1080px){
+    .container-2{
+        margin-top: 20%;
+    }
+}
+
+/**************** Review Page ******************/
+
+.card{
+    margin-top: 20px;
+    background-color: #366ED8;
+    color: white;
+}
+
+.input-text{
+    width: 285px;
+    margin: auto;
+}
+
+.review-button{
+    color : white;
+    border-color: white;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+
+.logo_amazon{
+    margin-top: 80px;
+}
+
+.hr-review{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 7px;
+    width: 30%;
+    margin: 80px auto 80px auto;
+    color: #EAF6F6;
+}
+
+.logo-div{
+    text-align: center;
+}
+
+.review_contact{
+    margin-top: 60px;
+}
+
+/**************** Login Page ******************/
+.login-button{
+    border-radius: 20px;
+}
+
+/**************** Add reviews ******************/
+.company_input{
+    width: 295px;
+    margin: auto;
+}
+
+.company_textarea{
+    width: 400px;
+    margin: auto;
+}
+
+.Exp_div{
+    margin-top: 125px;
+}
+
+.contact_add{
+    margin-top: 125px;
+}
+
+/**************** Profile ******************/
+
+.profile_div{
+    text-align: center;
+}
+
+.profile_logo{
+    margin-top: 40px;
+}
+
+.profile_contact{
+    margin-top: 230px;
+}
+
+/**************** Profile ******************/
+.your{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 7px;
+    width: 30%;
+    margin: 50px auto 50px auto;
+    color: #EAF6F6;
+}
+
+.your_contact{
+    margin-top: 520px;
+}
